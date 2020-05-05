@@ -26,3 +26,13 @@ This is the very first **HELLO WORLD** example from the book **Learning ROS for 
          **roscpp:** This is a C++ implementation of ROS. It provides a client library 
          that enables C++ programmers to quickly interface with ROS topics, services, 
          and parameters
+         
+   5) Building a ROS package
+      `$ cd ~/dev/catkin_ws/` <br/>
+      `$ catkin_make` <br/>
+      **Remember that you should run the catkin_make command line in the workspace folder.**
+   6) Creating Nodes
+      Navigate to the chapter2_tutorials/src/ folder using the following command: <br/>
+      `$ roscd chapter2_tutorials/src/' <br/>
+      Inside the src folder, create the two C++ files example1_a.cpp and example1_b.cpp which are the publisher and subscriber respsctively. <br/>
+   7) 
