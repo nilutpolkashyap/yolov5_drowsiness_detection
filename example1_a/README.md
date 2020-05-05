@@ -20,7 +20,7 @@ This is the very first **HELLO WORLD** example from the book **Learning ROS for 
   4) Creating a ROS package
       `$ cd ~/dev/catkin_ws/src` <br/>
       `$ catkin_create_pkg chapter2_tutorials std_msgs roscpp` <br/>
-      ## Note- Here we have installed dependencies-<br/>
+      Note- Here we have installed dependencies-<br/>
          **std_msgs:** This contains common message types representing primitive data 
          types and other basic message constructs, such as MultiArray.<br/>
          **roscpp:** This is a C++ implementation of ROS. It provides a client library 
